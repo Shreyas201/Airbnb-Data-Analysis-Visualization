@@ -1,21 +1,21 @@
 # Airbnb Data Analysis & Visualization
 
 ## 📌 Project Overview
-The Airbnb market has grown significantly, with pricing trends and availability playing a crucial role for hosts and travelers. This project explores Airbnb listing data combined with calendar data to derive insights into pricing trends, revenue growth, and bedroom-based pricing variations. Using Tableau, I created an interactive dashboard with five key visualizations to help analyze pricing by zipcode, availability, revenue growth, and bedroom pricing patterns.
+This project explores Airbnb listing data of Seattle (USA) combined with calendar data to derive insights into pricing trends, revenue growth, and bedroom-based pricing variations, helping hosts optimize their pricing strategies and enabling travelers to make informed decisions.
 
 ## 📂 Dataset Details
 The project utilizes two primary datasets:
 
 ### 1️⃣ Listing Data
-- Contains 92 columns with detailed information about Airbnb properties.
-- Key columns of interest:
+Contains 92 columns with detailed information about Airbnb properties.
+Key columns of interest:
 - Zipcodes – Geographic location of the listings.
 - Price – The listed price per night.
 - Number of Bedrooms – Total bedrooms per listing.
 - Date – The date of listing.
 ### 2️⃣ Calendar Data
-- Provides daily availability and pricing details for each listing.
-- Key columns:
+Provides daily availability and pricing details for each listing.
+Key columns:
 - Listing ID – Unique identifier for each property.
 - Available – Whether the listing is available for booking.
 - Price – The price for that specific date.
@@ -26,20 +26,20 @@ The project utilizes two primary datasets:
 I designed an interactive dashboard with five key visualizations to provide a comprehensive market overview.
 
 ### 📊 1. Price by Zipcode – Bar Graph
-Purpose: Identify price variations across different zip codes.
+Purpose: Identify price variations across different zip codes within Seattle.
 Insights:
 - Certain zip codes have significantly higher average prices.
 - Some regions have a mix of low and high-priced listings, indicating diverse property types.
 ### 🗺️ 2. Price by Zipcode – Area Map
-Purpose: Provide a geographical perspective on Airbnb prices.
+Purpose: Provide a geographical perspective on Airbnb prices within Seattle.
 Insights:
 - High-demand tourist areas have higher listing prices.
-- Less dense areas tend to have lower prices, with some exceptions for luxury properties.
+- Less dense areas tend to have lower prices.
 ### 📈 3. Revenue Growth for 2016
 Purpose: Track how Airbnb’s revenue changed throughout 2016.
 Insights:
-- Revenue spikes during peak travel seasons (summer, holidays).
-- A slight decline in revenue is observed towards the year-end, possibly due to seasonality.
+- Revenue spikes during peak travel seasons (summer break, holidays).
+- A slow revenue growth is observed towards the year-end, possibly due to seasonality.
 ### 💰 4. Average Price per Bedroom
 Purpose: Compare the average price per night based on the number of bedrooms.
 Insights:
@@ -56,14 +56,14 @@ Insights:
 - Prices vary significantly by zip code, with certain areas commanding much higher rates.
 - High-priced listings are concentrated in prime tourist areas and downtown regions.
 ###  2. Revenue Trends & Seasonal Impact
-- Revenue grew steadily in 2016, with noticeable peaks in summer and holidays.
-- Listings tend to become more available during off-peak months, leading to slight price reductions.
+- High Growth (Jan to Apr): The revenue growth from January to April shows a sharp increase, likely driven by early-year demand, including post-holiday bookings and winter travel trends.
+- Steady and Surge Growth (Apr to Dec): From April to November, growth stabilizes with a steady increase, followed by a significant holiday season surge in December, reflecting increased bookings during the summer and holiday periods.
 ### 3. Bedroom Pricing Strategy
 - Two-bedroom listings see the highest demand (reflected in both count & pricing).
 - Larger properties (4+ bedrooms) are high-value, but their supply is limited.
-### 4. Market Demand vs. Availability
-- Properties in high-demand areas are booked faster, leaving fewer last-minute options.
+### 4. Market Demand
 - There are clear pricing patterns based on seasonality and bedroom count.
+- Properties located closer to the sea tend to have higher prices, indicating that proximity to the coast significantly influences rental rates.
 
 ## 🚀 Tools & Techniques Used
 - Tableau: For visualizations and dashboard design.
@@ -76,7 +76,7 @@ Insights:
 - Include competitive analysis with hotels & alternative short-term rentals.
 
 ## 📌 Conclusion
-This Airbnb Tableau dashboard provides valuable data-driven insights for both property hosts and travelers. By analyzing pricing trends, revenue growth, and availability patterns, hosts can make informed pricing decisions, while travelers can identify cost-effective locations based on the season.
+By understanding pricing trends, revenue growth, and seasonal impacts, Airbnb hosts can optimize their listings for higher earnings. Travelers can also benefit by identifying the most cost-effective times and locations to book stays, based on data-driven insights.
 
 ## Reference:
 - Dataset: -
